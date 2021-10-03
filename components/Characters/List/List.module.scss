@@ -1,0 +1,23 @@
+.name {
+  font-size: 16px;
+  margin-top: 15px;
+  display: block;
+  font-weight: 600;
+}
+
+.item {
+  margin-bottom: 50px;
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .listItem {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+

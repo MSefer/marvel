@@ -15,7 +15,7 @@ function Detail({ character, comics }) {
       </div>
       <div className="row">
         <div className="col-12">
-          <h4>{character?.name}'s Comics</h4>
+          <h4>{character?.name} Comics</h4>
           <Comics comics={comics} />
         </div>
       </div>
